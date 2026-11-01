@@ -1,0 +1,14 @@
+[package]
+name = "logistics-account-erasure"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "logistics_account_erasure"
+path = "src/erasure_service.rs"
+
+[[bin]]
+name = "erase-account"
+path = "src/main.rs"
+
+[dependencies]
